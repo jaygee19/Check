@@ -228,6 +228,10 @@ td:hover {
     padding: 4px;
 }
 
+.mybutton a {
+    color: #ff7b1f !important;
+}
+
 
 
 
