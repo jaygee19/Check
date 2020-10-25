@@ -149,8 +149,6 @@ h1 {
     position: absolute;
     text-align: center;
     padding: 5px;
-    /*bottom: 55%;*/
-    /*right: 35%;*/
     color: white;
 }
 
@@ -201,7 +199,6 @@ h1 {
 }
 
 .jumbotron .display-4 {
-    /*font-style: oblique;*/
     font-weight: 400;
 }
 
