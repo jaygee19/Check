@@ -52,6 +52,8 @@ body {
         background-color: black;
         color: white;
     }
+
+
 }
 @media (min-width: 768px) {
     .jumbotron-fluid {
@@ -61,8 +63,6 @@ body {
     }
 
     .djimage {
-
-        /*width: auto; 348 508*/
         width: auto;
         height: 225px;
     }
@@ -231,6 +231,13 @@ td:hover {
 .mybutton a {
     color: #ff7b1f !important;
 }
+
+@media (max-width: 768px) {
+    audio {
+        width: 150px !important;
+    }
+}
+
 
 
 
