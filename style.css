@@ -68,12 +68,10 @@ body {
     }
 
     .pozadie {
-        /*background-image: url("photo-1454117096348-e4abbeba002c.jpg");*/
         background-color: #3e3b3b;
     }
 
     .wall {
-        /*background-image: url("photo-1454117096348-e4abbeba002c.jpg");*/
         background-color: #3e3b3b;
     }
 
@@ -112,8 +110,8 @@ body {
         color: white;
     }
 
-
 }
+
 .navbar
 {
     background-color: #3e3b3b;
