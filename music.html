@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="pozadie">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <!--    <a class="navbar-brand" href="#">Navbar</a>-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="navbar-brand" href="#">
+                            <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-headphones" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8 3a5 5 0 0 0-5 5v4.5H2V8a6 6 0 1 1 12 0v4.5h-1V8a5 5 0 0 0-5-5z"/>
+                                <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">News</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Results
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Monthly</a>
+                            <a class="dropdown-item" href="music.html">Yearly</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">TRANCE YEAR 2019</h1>
+        <p class="lead">Vote each month your top three songs in various genres. </p>
+    </div>
+</div>
+
+<div class="container">
+<table id="toptrance" style="width:auto">
+    <tr>
+        <th>Number</th>
+        <th>Artist</th>
+        <th>Name track</th>
+        <th>Play</th>
+    </tr>
+    <tr>
+        <th>1.</th>
+        <td>Marlo ft. Feenixpawl</td>
+        <td>Lighter Than Air</td>
+        <td>
+            <audio controls>
+            <source src="MaRLo%20&%20Feenixpawl%20-%20Lighter%20Than%20Air%20(Extended%20Mix).mp3">
+            </audio>
+        </td>
+    </tr>
+    <tr>
+        <th>2.</th>
+        <td>Richard Durand ft. Christina Novelli </td>
+        <td>Save You</td>
+        <td>
+            <audio controls>
+                <source src="Richard%20Durand%20&%20Christina%20Novelli%20-%20Save%20You%20(Extended%20Mix).mp3">
+            </audio>
+        </td>
+    </tr>
+
+    <tr>
+        <th>3.</th>
+        <td>Armin Van Buuren ft. Shapov </td>
+        <td>La Resistance De L'Amour</td>
+        <td>
+            <audio controls>
+                <source src="Armin%20Van%20Buuren%20ft.%20Shapov%20-%20La%20Resistance%20De%20L'Amour%20(Extended%20Mix).mp3">
+            </audio>
+        </td>
+    </tr>
+
+    <tr>
+        <th>4.</th>
+        <td>Key4050 ft. Plumb </td>
+        <td>I Love You</td>
+        <td>
+            <audio controls>
+                <source src="Key4050%20ft.%20Plumb%20-%20I%20Love%20You%20(Original%20Mix).mp3">
+            </audio>
+        </td>
+    </tr>
+
+    <tr>
+        <th>5.</th>
+        <td>Ben Gold ft. SIVAN & Snejider </td>
+        <td>Stay (Snejider Remix)</td>
+        <td>
+            <audio controls>
+                <source src="Ben%20Gold%20ft.%20Sivan%20-%20Stay%20(Sneijder%20Remix).mp3">
+            </audio>
+        </td>
+    </tr>
+
+    <tr>
+        <th>6.</th>
+        <td>Aly & Fila </td>
+        <td>It's All About Melody</td>
+        <td>
+            <audio controls>
+                <source src="Aly%20&%20Fila%20-%20Its%20All%20About%20The%20Melody%20(Extended%20Mix).mp3">
+            </audio>
+        </td>
+    </tr>
+
+    <tr>
+        <th>7.</th>
+        <td>Armin Van Buuren pres. Rising Star ft. Alexandra Badoi </td>
+        <td>Cosmos</td>
+        <td>
+            <audio controls>
+                <source src="Armin%20van%20Buuren%20pres.%20Rising%20Star%20-%20Cosmos%20(feat.%20Alexandra%20Bado).mp3">
+            </audio>
+        </td>
+    </tr>
+
+    <tr>
+        <th>8.</th>
+        <td>Ferry Corsten pres. Gouryella </td>
+        <td>Surga</td>
+        <td>
+            <audio controls>
+                <source src="Ferry%20Corsten%20pres.%20Gouryella%20-%20Surga%20(Extended%20Mix).mp3">
+            </audio>
+        </td>
+    </tr>
+
+    <tr>
+        <th>9.</th>
+        <td>Markus Schulz ft. HALIENE </td>
+        <td>Ave Maria</td>
+        <td>
+            <audio controls>
+                <source src="Markus%20Schulz%20ft.%20Haliene%20-%20Ave%20Maria%20(Extended%20Mix).mp3">
+            </audio>
+        </td>
+    </tr>
+
+    <tr>
+        <th>10.</th>
+        <td>Armin Van Buuren ft. Sam Martin </td>
+        <td>Wild Wild Son (Richard Durand Remix)</td>
+        <td>
+            <audio controls>
+                <source src="Armin%20van%20Buuren,%20Sam%20Martin%20-%20Wild%20Wild%20Son%20(Richard%20Durand%20Extended%20Remix).mp3">
+            </audio>
+        </td>
+    </tr>
+
+</table>
+</div>
+
+</div>
+</body>
+</html>
